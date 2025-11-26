@@ -1,9 +1,8 @@
 const { createServer } = require("http");
 const { parse } = require("url");
 const next = require("next");
-const { execSync } = require("child_process");
 
-const port = parseInt(process.env.PORT || process.env.ALWAYSDATA_HTTPD_PORT || "3000", 10);
+const port = parseInt(process.env.PORT || process.env.ALWAYSDATA_HTTPD_PORT || "3001", 10);
 const dev = false;
 const app = next({ dev });
 const handle = app.getRequestHandler();
