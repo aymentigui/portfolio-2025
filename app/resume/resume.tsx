@@ -146,7 +146,7 @@ const Resume = () => {
         >
             <div className="container mx-auto">
                 {/* Main heading for SEO */}
-                <header className="mb-8 text-center xl:text-left">
+                <header className="mb-8 text-center xl:text-left hidden">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-3">
                         Aimen Tighiouart - Full Stack Developer
                     </h1>
