@@ -26,7 +26,7 @@ export default function Home() {
                 <FiDownload className="text-xl"></FiDownload>
               </Button>
               <div className="mb-8 xl:mb-0">
-                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-sky-400 rounded-full flex justify-center items-center text-sky-400 text-base hover:bg-sky-400 hover:text-[#1c1c22] hover:transition-all duration-500" />
+                <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-sky-400 rounded-full flex justify-center items-center text-sky-400 text-base hover:bg-sky-400 hover:text-[#012431] hover:transition-all duration-500" />
               </div>
             </div>
           </div>

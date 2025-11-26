@@ -138,7 +138,7 @@ const Services = () => {
                     href={service.href}
                     aria-label={`Learn more about ${service.title}`}
                   >
-                    <BsArrowDownRight className="text-[#1c1c22] text-3xl" />
+                    <BsArrowDownRight className="text-[#012431] text-3xl" />
                   </Link>
                 </div>
                 

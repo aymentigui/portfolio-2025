@@ -82,7 +82,7 @@ const Contact = () => {
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form 
               onSubmit={handleSubmit} 
-              className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
+              className="flex flex-col gap-6 p-10 bg-[#021f2a] rounded-xl"
               aria-label="Contact form"
               itemScope 
               itemType="https://schema.org/ContactForm"
@@ -192,7 +192,7 @@ const Contact = () => {
                 {info.map((item, index) => (
                   <li key={index} className="flex gap-6" itemProp="contactPoint" itemScope itemType="https://schema.org/ContactPoint">
                     <div 
-                      className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#27272c] rounded-md flex items-center justify-center text-sky-400"
+                      className="w-[52px] h-[52px] xl:w-[72px] xl:h-[72px] bg-[#021f2a] rounded-md flex items-center justify-center text-sky-400"
                       aria-hidden="true"
                     >
                       <div className="text-[28px]">{item.icon}</div>
@@ -225,15 +225,15 @@ const Contact = () => {
         <section className="mt-16 text-center max-w-4xl mx-auto" aria-label="Why contact me">
           <h2 className="text-3xl font-bold text-white mb-6">Why Work With Me?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-            <article className="bg-[#27272c] p-6 rounded-xl">
+            <article className="bg-[#021f2a] p-6 rounded-xl">
               <h3 className="text-xl font-bold text-sky-400 mb-3">Fast Response</h3>
               <p className="text-white/60">I respond to all inquiries within 24 hours. Your project timeline matters to me.</p>
             </article>
-            <article className="bg-[#27272c] p-6 rounded-xl">
+            <article className="bg-[#021f2a] p-6 rounded-xl">
               <h3 className="text-xl font-bold text-sky-400 mb-3">Free Consultation</h3>
               <p className="text-white/60">Get expert advice on your project requirements and the best technology stack.</p>
             </article>
-            <article className="bg-[#27272c] p-6 rounded-xl">
+            <article className="bg-[#021f2a] p-6 rounded-xl">
               <h3 className="text-xl font-bold text-sky-400 mb-3">Flexible Availability</h3>
               <p className="text-white/60">Available for both short-term projects and long-term collaborations worldwide.</p>
             </article>

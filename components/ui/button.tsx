@@ -9,10 +9,10 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-sky-400 text-[#1c1c22] hover:bg-[#1c1c22]/90 hover:border hover:border-sky-400 hover:text-sky-400",
-        primary: "bg-[#1c1c22] text-white",
+        default: "bg-sky-400 text-[#012431] hover:bg-[#012431]/90 hover:border hover:border-sky-400 hover:text-sky-400",
+        primary: "bg-[#012431] text-white",
         outline:
-          "border border-sky-400 bg-transparent text-sky-400 hover:bg-sky-400 hover:text-[#1c1c22]",
+          "border border-sky-400 bg-transparent text-sky-400 hover:bg-sky-400 hover:text-[#012431]",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost:

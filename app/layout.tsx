@@ -64,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jetBrainsMono.className} relative antialiased bg-[#1c1c22] text-white px-6 md:px-12 lg:px-24`}
+        className={`${jetBrainsMono.className} relative antialiased bg-[#012431] text-white px-6 md:px-12 lg:px-24`}
       >
         <Header />
         <StaitTransition />

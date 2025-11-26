@@ -20,7 +20,7 @@ const MobileNav = () => {
                 <CiMenuFries className='text-3xl text-sky-400 cursor-pointer' />
             </SheetTrigger>
             <SheetTitle className='text-white text-2xl font-semibold p-4'></SheetTitle>
-            <SheetContent className='bg-[#1c1c22] border-none flex justify-around flex-col'>
+            <SheetContent className='bg-[#012431] border-none flex justify-around flex-col'>
                 <div className='text-center mt-20 text-2xl'>
                     <Link className='text-4xl font-semibold' href={"/"}>Aimen <span className='text-sky-400'>.</span></Link>
                 </div>

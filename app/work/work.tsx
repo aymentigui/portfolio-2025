@@ -410,7 +410,7 @@ const Work = () => {
                         >
                             {projects.map((item, index) => (
                                 <SwiperSlide key={index}>
-                                    <figure className="h-[460px] relative group flex justify-center items-center bg-black">
+                                    <figure className="h-[460px] relative group flex justify-center items-center bg-021f2a">
                                         <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                                         <div className="relative h-full w-full">
                                             <Image 
@@ -427,7 +427,7 @@ const Work = () => {
                             ))}
                             <WrorkSliderBtns
                                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%-_22px)] xl:bottom-0 z-20 justify-between w-full xl:w-max xl:justify-none"
-                                btnStyles="bg-sky-400 hover:bg-sky-600 text-[#1c1c22] text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all duration-500"
+                                btnStyles="bg-sky-400 hover:bg-sky-600 text-[#012431] text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all duration-500"
                             />
                         </Swiper>
                     </div>
@@ -437,19 +437,19 @@ const Work = () => {
                 <section className="mt-16 text-center" aria-label="Portfolio summary">
                     <h2 className="text-3xl font-bold text-white mb-6">Project Categories</h2>
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-                        <div className="bg-[#27272c] p-6 rounded-xl">
+                        <div className="bg-[#021f2a] p-6 rounded-xl">
                             <h3 className="text-2xl font-bold text-sky-400 mb-2">6+</h3>
                             <p className="text-white/60">E-commerce Stores</p>
                         </div>
-                        <div className="bg-[#27272c] p-6 rounded-xl">
+                        <div className="bg-[#021f2a] p-6 rounded-xl">
                             <h3 className="text-2xl font-bold text-sky-400 mb-2">5+</h3>
                             <p className="text-white/60">Enterprise Platforms</p>
                         </div>
-                        <div className="bg-[#27272c] p-6 rounded-xl">
+                        <div className="bg-[#021f2a] p-6 rounded-xl">
                             <h3 className="text-2xl font-bold text-sky-400 mb-2">3+</h3>
                             <p className="text-white/60">Mobile Applications</p>
                         </div>
-                        <div className="bg-[#27272c] p-6 rounded-xl">
+                        <div className="bg-[#021f2a] p-6 rounded-xl">
                             <h3 className="text-2xl font-bold text-sky-400 mb-2">2+</h3>
                             <p className="text-white/60">Custom Plugins</p>
                         </div>

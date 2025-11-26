@@ -12,7 +12,7 @@ const PageTransition = ({ children }: any) => {
 
             <div key={pathName}>
                 <motion.div
-                    className='h-screen w-screen fixed top-0 left-0 bg-[#1c1c22] z-50 pointer-events-none'
+                    className='h-screen w-screen fixed top-0 left-0 bg-[#012431] z-50 pointer-events-none'
                     initial={{ opacity: 1 }} animate={{ opacity: 0, transition: { delay: 1, duration: 2, ease: "easeInOut" } }}>
                 </motion.div>
                 {children}
