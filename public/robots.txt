@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://aimen-blog.com
+
+# Sitemaps
+Sitemap: https://aimen-blog.com/sitemap.xml
