@@ -146,7 +146,7 @@ const Resume = () => {
         >
             <div className="container mx-auto">
                 {/* Main heading for SEO */}
-                <header className="mb-8 text-center xl:text-left hidden lg:block">
+                <header className="mb-8 text-center xl:text-left hidden">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-3">
                         Aimen Tighiouart - Full Stack Developer
                     </h1>
@@ -176,7 +176,7 @@ const Resume = () => {
                                         {experience.items.map((item, index) => (
                                             <li 
                                                 key={index} 
-                                                className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                                                className="bg-[#021f2a] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                                                 itemScope 
                                                 itemType="https://schema.org/OrganizationRole"
                                             >
@@ -207,7 +207,7 @@ const Resume = () => {
                                         {education.items.map((item, index) => (
                                             <li 
                                                 key={index} 
-                                                className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                                                className="bg-[#021f2a] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                                                 itemScope 
                                                 itemType="https://schema.org/EducationalOccupationalCredential"
                                             >
@@ -239,7 +239,7 @@ const Resume = () => {
                                             <TooltipProvider delayDuration={100}>
                                                 <Tooltip>
                                                     <TooltipTrigger 
-                                                        className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group"
+                                                        className="w-full h-[150px] bg-[#021f2a] rounded-xl flex justify-center items-center group"
                                                         aria-label={`${skill.name} skill`}
                                                     >
                                                         <div className="text-6xl group-hover:text-sky-400 transition-all duration-300" aria-hidden="true">
