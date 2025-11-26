@@ -68,7 +68,7 @@ const Contact = () => {
     >
       <div className="container mx-auto">
         {/* SEO Header */}
-        <header className="mb-12 text-center">
+        <header className="mb-12 text-center hidden lg:block">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Contact Me - Let's Build Your Project
           </h1>

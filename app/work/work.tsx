@@ -296,7 +296,7 @@ const Work = () => {
         >
             <div className="container mx-auto">
                 {/* SEO Header */}
-                <header className="mb-12 text-center xl:text-left hidden">
+                <header className="mb-12 text-center xl:text-left hidden lg:block">
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
                         Portfolio - Professional Web Development Projects
                     </h1>
