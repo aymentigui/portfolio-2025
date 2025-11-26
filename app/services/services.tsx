@@ -104,7 +104,7 @@ const Services = () => {
       <div className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-0">
         <div className="container mx-auto">
           {/* Main Heading for SEO */}
-          <header className="mb-12 text-center">
+          <header className="mb-12 text-center hidden">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
               Professional Web Development Services
             </h1>

@@ -450,7 +450,7 @@ const Work = () => {
                             <p className="text-white/60">Mobile Applications</p>
                         </div>
                         <div className="bg-[#27272c] p-6 rounded-xl">
-                            <h3 className="text-2xl font-bold text-sky-400 mb-2">4+</h3>
+                            <h3 className="text-2xl font-bold text-sky-400 mb-2">2+</h3>
                             <p className="text-white/60">Custom Plugins</p>
                         </div>
                     </div>
